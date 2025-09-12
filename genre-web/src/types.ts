@@ -1,0 +1,1 @@
+export type ParsedPrediction = {label?: string; prob?: number};

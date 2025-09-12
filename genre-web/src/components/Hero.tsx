@@ -3,9 +3,9 @@ import { HERO_IMAGE } from '../lib/config'
 
 const Hero = ({children} : {children: React.ReactNode}) => {
   return (
-    <div className="min-h-screen w-full relative">
+    <div className="min-h-screen w-screen relative">
         <div
-            className='absolute inset-0 bg-center bg-cover'
+            className='absolute inset-0 bg-center bg-cover w-screen bg-no-repeat'
             style={{backgroundImage: `url(${HERO_IMAGE})`}}
             aria-hidden
         />

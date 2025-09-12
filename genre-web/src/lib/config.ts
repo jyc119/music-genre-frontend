@@ -1,6 +1,6 @@
-export const HERO_IMAGE = "/assets/home.jpg";
+export const HERO_IMAGE = "src/assets/home.jpg";
 
 export const GENRE_IMAGES: Record<string, string> = {
-    blues: "assets/blues-image.jpg",
-    rock: "assets/rock-image.jpg",
+    blues: "src/assets/blues-image.jpg",
+    rock: "src/assets/rock-image.jpg",
 };
