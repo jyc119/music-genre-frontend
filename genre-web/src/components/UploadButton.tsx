@@ -12,7 +12,7 @@ const UploadButton = ({loading, onPick, filename}: Props) => {
         <button 
             onClick={onPick}
             disabled={loading}
-            className="px-5 py-3 rounded-xl font-semibold shadow hover:shadow-md transition disabled:opacity-50 bg-black text-white"
+            className="px-5 py-3 rounded-xl font-semibold shadow hover:shadow-md transition disabled:opacity-50 bg-black"
         >
             {loading ? "Uploading..." : filename ? "Choose another file" : "Choose a file"}
         </button>

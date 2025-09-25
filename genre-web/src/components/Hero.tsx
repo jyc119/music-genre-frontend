@@ -14,6 +14,7 @@ const Hero = ({children} : {children: React.ReactNode}) => {
             {children}
         </main>
     </div>
+
   )
 }
 
